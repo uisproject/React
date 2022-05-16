@@ -4,7 +4,8 @@ const App = () => {
       {/* <UseState /> */}
       {/* <UseContext /> */}
       {/* <UseEffect /> */}
-      <UseCallback />
+      {/* <UseCallback /> */}
+      <UseMemo />
     </React.Fragment>
   );
 };
