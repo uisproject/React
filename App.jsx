@@ -2,7 +2,8 @@ const App = () => {
   return (
     <React.Fragment>
       {/* <UseState /> */}
-      <UseContext />
+      {/* <UseContext /> */}
+      <UseEffect />
     </React.Fragment>
   );
 };
