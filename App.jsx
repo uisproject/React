@@ -7,7 +7,8 @@ const App = () => {
       {/* <UseCallback /> */}
       {/* <UseMemo /> */}
       {/* <UseReducer /> */}
-      <UseRef />
+      {/* <UseRef /> */}
+      <UseImperativeHandle />
     </React.Fragment>
   );
 };
