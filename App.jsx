@@ -1,16 +1,19 @@
 const App = () => {
   return (
-    <React.Fragment>
-      {/* <UseState /> */}
-      {/* <UseContext /> */}
-      {/* <UseEffect /> */}
-      {/* <UseCallback /> */}
-      {/* <UseMemo /> */}
-      {/* <UseReducer /> */}
-      {/* <UseRef /> */}
-      {/* <UseImperativeHandle /> */}
-      <UseLayoutEffect />
-    </React.Fragment>
+    <React.StrictMode>
+      <React.Fragment>
+        {/* <UseState /> */}
+        {/* <UseContext /> */}
+        {/* <UseEffect /> */}
+        {/* <UseCallback /> */}
+        {/* <UseMemo /> */}
+        {/* <UseReducer /> */}
+        {/* <UseRef /> */}
+        {/* <UseImperativeHandle /> */}
+        {/* <UseLayoutEffect /> */}
+        <UseDebugValue />
+      </React.Fragment>
+    </React.StrictMode>
   );
 };
 
